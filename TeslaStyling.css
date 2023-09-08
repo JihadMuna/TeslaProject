@@ -1,0 +1,47 @@
+body {
+    margin: 0;
+    width: 100%;
+}
+
+#header-wrapper {
+    position: absolute;
+    width: 100vw;
+    box-sizing: border-box;
+ 
+}
+.navbar {
+    list-style: none;
+    margin:0 ;
+    padding: 2%;
+    background: transparent ;
+    overflow:auto;
+    inline-size: 100%;
+    
+}
+
+.Menu {
+    color: white;
+}
+
+.navbar .MenuList li {
+    display: inline;
+    font-size: large;
+    padding: 1%;
+}
+
+
+.logo #Tesla {
+    width: 20px;
+}
+
+
+.MenuList li button{
+    color: white;
+    padding: 15px 20px;
+    font-family: cursive;
+    text-decoration: none;
+}
+
+.SideMenu {
+
+}
