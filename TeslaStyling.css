@@ -2,53 +2,58 @@
     margin: 0;
     font-family: 'Gotham Light', sans-serif;
 }
-.site-header {
+.container {
     width: 100%;
-    height: 100vh;
+    height: 100%;
+}
+video {
+    width:100%;
+    height:100%;
 }
 nav {
-    display: flex;
-    position:fixed;
-    top: 0;
-    left: 0;
+    position: absolute;
     width: 100%;
+    top: 5px;
+    display: inline-block;
 }
+
 .logo {
     width: 120px;
     height: 30px;
     cursor: pointer;
     margin:15px 40px;
+    float: left;
 }
 
 .MenuList {
-    flex: 1;
-    text-align: center;
-    margin:20px;
+    width: 50%;
+    margin: 1.7% 7%;
+    float: left;
 }
 
 .MenuList li {
     display: inline-block;
-    padding: 0 15px;
+    padding: 0 5%;
 
 }.MenuList li a {
     text-decoration: none;
     color: white;
-    size: 2px;
+    font-size: 100%;
+    font-weight: bold;
 }
 .SideMenuList {
-    text-align: right;
-    margin:4px 10px; 
-    cursor: pointer;  
+    width: 10%;
+    float: right; 
+    cursor: pointer; 
+    margin: 1%; 
 }
 
 .SideMenuList li {
     display: inline-block;
-    padding:2px;
-    margin: 12px;
+    padding: 2%;
 }
 .support {
-    width: 25px;
-
+    width: 25px
 }
 .global {
     width: 20px;
@@ -56,80 +61,21 @@ nav {
 .register {
     width: 20px;
 }
-
-.info {
-    display: flex;
-    position:fixed;
-    padding: 49px 155px;
-    width: 100%;
-    align-items: center;
-    color: white;
-    bottom: 100px;
-}
-
-.info section {
-    margin: 0 80px;
-    text-align: center;
-}
-
-.info section h2{
-font-size: 22px;
-font-weight: 500;
-}
-   .info section p {
-    font-size: 13px;
-   }
-   button {
-    color:black;
-    background-color: white;
-    border-radius: 5px;
-    width: 200px;
-    height: 40px;
-    font-size: medium;
-}
-.footer {
-    font-size:14px ;
-}
-p1 {
-    position:fixed;
-    padding:40px;
-    width: 100%;
-    text-align: center;
-    color: white;
-    bottom: 40px; 
-}
-p2 a{
-    position:fixed;
-    padding:40px;
-    width: 100%;
-    text-align: center;
-    color: white;
-    bottom: 20px; 
+.mainpage {
+    position: absolute;
+   top: 15%;
+   right: 45%;
     
 }
-p3 {
-    display:inline;
-    position:fixed;
-    padding:40px;
-    width: 100%;
-    text-align: center;
-    color: white;
-    bottom: 0px; 
-}
 #m1 {
-    display: flex;
-    position:fixed;
     padding: 20px 600px;
     width: 100%;
     text-align: center;
     color: white;
-    bottom: 75%;
     font-size:42px;
 }
 #m2 {
-    display: flex;
-    position:fixed;
-    padding: 20px 615px;
+    padding: 0 600px;
     width: 100%;
     text-align: center;
     color: white;
@@ -137,12 +83,79 @@ p3 {
     font-size:18px;
 }
 #m3 {
-    display: flex;
-    position:fixed;
-    padding: 15px 605px;
+    padding: 10px 600px;
     width: 100%;
     text-align: center;
     color: white;
     bottom: 67%;
     font-size:13px;
+}
+
+.info {
+    position: absolute;
+    display: inline-block;
+    width: 100%;
+    bottom: 20%;
+    left: 20%;
+    color: white;
+}
+.i1 {
+    float: left;
+    padding:0 3%;
+    text-align: center;
+}
+.i2 {
+    float: left;
+    padding:0 3%;
+    text-align: center;
+}
+.i3 {
+    float: left;
+    padding:0 3%;
+    text-align: center;
+}
+h2{
+    font-size: 22px;
+    font-weight: bold;
+    padding: 2%;
+}
+p {
+    font-size: 13px;
+}
+button {
+ color:black;
+ background-color: white;
+ border-radius: 5px;
+ width: 200px;
+ height: 40px;
+ font-size: medium;
+ font-weight: bolder;
+ margin: 0 5%;
+ cursor: pointer;
+}
+button:hover {
+    background-color: lightslategray;
+}
+.footer {
+    position: absolute;
+    width: 50%;
+    bottom: 1%;
+    left: 25%;
+    font-size:14px;
+    text-align: center;
+}
+p1 {
+    display: inline-block;
+    padding:1%;
+    color: white;
+}
+p2 a{
+    display: inline-block;
+    padding:1%;
+    color: white;  
+}
+p3 {
+    display: inline-block;
+    padding:1%;
+    color: white;
 }
